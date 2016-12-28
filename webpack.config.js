@@ -99,7 +99,8 @@ module.exports = function makeWebpackConfig() {
       },
 
       // Support for *.json files.
-      {test: /\.json$/, loader: 'json-loader'},
+      {test: /\.json$/, loader: 
+        'json-loader'},
 
       // Support for CSS as raw text
       // use 'null' loader in test mode (https://github.com/webpack/null-loader)
