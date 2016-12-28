@@ -22,7 +22,7 @@ export class SettingsService {
         // -----------------------------------
         this.app = {
             name: 'formbuilder',
-            description: 'Angular Bootstrap Express Form-Builder Template',
+            description: 'Angular Express Form-Builder',
             year: ((new Date()).getFullYear())
         };
 

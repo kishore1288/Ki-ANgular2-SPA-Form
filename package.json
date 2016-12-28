@@ -4,8 +4,7 @@
   "description": "\"Angular2 starter with typescript\"",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 5000",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
